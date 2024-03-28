@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 230, 255);
+}
+
+header{
+    margin-bottom: 16px;
+}
+
+h1{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px;
+    font: 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(155, 235, 255);
+    cursor: pointer;
+
+}
+
+.container{
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.panel{
+    background-color: rgba(0, 204, 255, 0.973);
+    border-radius: 16px;
+    padding: 15px;
+}
+
+.translation{
+    background-color: white;
+    margin-bottom: 16px;
+}
+
+.translation-result{
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.translation-text{
+    font-size: 32px;
+}
+
+.translation-flag{
+    position: absolute;
+    font-size: 32px;
+}
+
+.controls{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.text-input{
+    width: 100%;
+}
+
+.flex-space{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pill{
+    background-color: rgb(255, 80, 211);
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+.pill p{
+    text-transform: capitalize;
+    font-weight: 600;
+}
